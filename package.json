@@ -51,7 +51,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!(@ionic/react|@ionic/react-router|@ionic/core|@stencil/core|ionicons)/)'",
     "eject": "react-scripts eject",
-    "deploy": "firebase deploy --only hosting:remedio-timer",
+    "deploy": "firebase deploy --only hosting:remedio-timer; git add .; git commit -m deploy",
     "lint": "eslint --ext .ts,.tsx src"
   },
   "browserslist": [
