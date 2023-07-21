@@ -1,6 +1,11 @@
 {
   "short_name": "Ionic App",
-  "name": "My Ionic App",
+  "name": "Remedio timer",
+  "hosting": {
+    "site": "remedio-timer",
+
+    "public": "public"
+  },
   "icons": [
     {
       "src": "assets/icon/favicon.png",
